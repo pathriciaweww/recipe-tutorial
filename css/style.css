@@ -1,0 +1,45 @@
+img{
+    width: 300px;
+    border-radius: 10px;
+}
+
+body{
+    background-color: #cce3de;
+    color: #f07167;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.main-container{
+    text-align: center;
+}
+
+.sweets-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 4%;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: #f07167;
+}
+
+.sweets-item{
+    text-align: center;
+}
+
+a{
+    color: #f07167;
+    font-weight: bold;
+}
+
+.recipe-container{
+    display: grid;
+}
+
+.recipe-items.title{
+    text-align: center;
+}
+
